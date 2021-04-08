@@ -1,86 +1,685 @@
-2021-04-07 12:50:26,405 INFO Begin training iris
-2021-04-07 12:50:28,156 INFO Loading data
-2021-04-07 12:50:28,165 INFO Building network
-2021-04-07 12:50:28,168 DEBUG Input layer size: 40
-2021-04-07 12:50:28,169 DEBUG Hidden layer size: 23
-2021-04-07 12:50:28,169 DEBUG Output layer size: 3
-2021-04-07 12:50:28,172 INFO Begin training
-2021-04-07 12:50:28,174 DEBUG Training set size: 120
-2021-04-07 12:50:28,174 DEBUG Test set size: 30
-2021-04-07 12:51:57,871 INFO Epoch 4/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 12:53:23,466 INFO Epoch 9/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 12:54:53,598 INFO Epoch 14/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 12:56:23,700 INFO Epoch 19/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 12:57:53,768 INFO Epoch 24/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 12:59:31,506 INFO Epoch 29/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:01:01,881 INFO Epoch 34/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:02:25,392 INFO Epoch 39/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:03:42,732 INFO Epoch 44/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:05:14,118 INFO Epoch 49/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:06:39,056 INFO Epoch 54/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:08:00,299 INFO Epoch 59/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:09:21,745 INFO Epoch 64/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:10:43,165 INFO Epoch 69/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:12:04,552 INFO Epoch 74/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:13:26,271 INFO Epoch 79/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:14:48,345 INFO Epoch 84/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:16:10,677 INFO Epoch 89/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:17:32,683 INFO Epoch 94/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:18:54,598 INFO Epoch 99/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:20:16,626 INFO Epoch 104/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:21:38,918 INFO Epoch 109/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:23:00,421 INFO Epoch 114/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:24:22,361 INFO Epoch 119/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:25:43,648 INFO Epoch 124/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:27:05,813 INFO Epoch 129/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:28:28,328 INFO Epoch 134/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:29:50,754 INFO Epoch 139/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:31:13,209 INFO Epoch 144/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:32:35,631 INFO Epoch 149/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:33:58,260 INFO Epoch 154/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:35:20,901 INFO Epoch 159/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:36:43,307 INFO Epoch 164/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:38:06,175 INFO Epoch 169/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:39:28,710 INFO Epoch 174/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:40:52,037 INFO Epoch 179/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:42:14,601 INFO Epoch 184/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:43:24,233 INFO Epoch 189/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:44:32,581 INFO Epoch 194/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:45:41,107 INFO Epoch 199/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:46:50,491 INFO Epoch 204/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:47:59,111 INFO Epoch 209/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:49:08,094 INFO Epoch 214/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:50:17,062 INFO Epoch 219/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:51:25,884 INFO Epoch 224/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:52:34,675 INFO Epoch 229/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:53:43,913 INFO Epoch 234/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:54:53,069 INFO Epoch 239/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:56:02,494 INFO Epoch 244/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:57:11,606 INFO Epoch 249/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:58:20,877 INFO Epoch 254/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 13:59:29,710 INFO Epoch 259/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:00:38,399 INFO Epoch 264/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:01:47,165 INFO Epoch 269/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:02:55,749 INFO Epoch 274/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:04:04,273 INFO Epoch 279/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:05:12,831 INFO Epoch 284/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:06:21,574 INFO Epoch 289/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:07:30,548 INFO Epoch 294/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:08:39,548 INFO Epoch 299/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:09:48,671 INFO Epoch 304/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:10:57,862 INFO Epoch 309/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:12:06,819 INFO Epoch 314/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:13:15,567 INFO Epoch 319/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:14:24,102 INFO Epoch 324/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:15:32,446 INFO Epoch 329/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:16:41,230 INFO Epoch 334/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:17:50,227 INFO Epoch 339/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:18:59,034 INFO Epoch 344/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:20:08,304 INFO Epoch 349/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:21:17,888 INFO Epoch 354/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:22:26,991 INFO Epoch 359/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:23:37,772 INFO Epoch 364/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:24:56,274 INFO Epoch 369/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:26:22,213 INFO Epoch 374/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:27:38,652 INFO Epoch 379/500. Train accuracy: 35.83%. Test accuracy: 16.67%
-2021-04-07 14:28:54,686 INFO Epoch 384/500. Train accuracy: 35.83%. Test accuracy: 16.67%
+INFO Begin training iris
+INFO Building network
+DEBUG Input layer size: 40
+DEBUG Hidden layer size: 23
+DEBUG Output layer size: 3
+INFO Begin training
+DEBUG Training set size: 120
+DEBUG Test set size: 30
+INFO [Epoch 1]  train_loss: 0.4389  train_accuracy: 0.34  test_loss: 0.4000  test_accuracy: 0.40
+INFO [Epoch 2]  train_loss: 0.4000  train_accuracy: 0.40  test_loss: 0.3556  test_accuracy: 0.47
+INFO [Epoch 3]  train_loss: 0.3944  train_accuracy: 0.41  test_loss: 0.2889  test_accuracy: 0.57
+INFO [Epoch 4]  train_loss: 0.3444  train_accuracy: 0.48  test_loss: 0.3778  test_accuracy: 0.43
+INFO [Epoch 5]  train_loss: 0.3500  train_accuracy: 0.47  test_loss: 0.3778  test_accuracy: 0.43
+INFO [Epoch 6]  train_loss: 0.3000  train_accuracy: 0.55  test_loss: 0.3333  test_accuracy: 0.50
+INFO [Epoch 7]  train_loss: 0.2722  train_accuracy: 0.59  test_loss: 0.3333  test_accuracy: 0.50
+INFO [Epoch 8]  train_loss: 0.2167  train_accuracy: 0.68  test_loss: 0.3111  test_accuracy: 0.53
+INFO [Epoch 9]  train_loss: 0.1778  train_accuracy: 0.73  test_loss: 0.2444  test_accuracy: 0.63
+INFO [Epoch 10]  train_loss: 0.1944  train_accuracy: 0.71  test_loss: 0.2222  test_accuracy: 0.67
+INFO [Epoch 11]  train_loss: 0.1944  train_accuracy: 0.71  test_loss: 0.2222  test_accuracy: 0.67
+INFO [Epoch 12]  train_loss: 0.1722  train_accuracy: 0.74  test_loss: 0.2000  test_accuracy: 0.70
+INFO [Epoch 13]  train_loss: 0.1667  train_accuracy: 0.75  test_loss: 0.1333  test_accuracy: 0.80
+INFO [Epoch 14]  train_loss: 0.1500  train_accuracy: 0.78  test_loss: 0.1556  test_accuracy: 0.77
+INFO [Epoch 15]  train_loss: 0.1444  train_accuracy: 0.78  test_loss: 0.1333  test_accuracy: 0.80
+INFO [Epoch 16]  train_loss: 0.1222  train_accuracy: 0.82  test_loss: 0.1333  test_accuracy: 0.80
+INFO [Epoch 17]  train_loss: 0.1000  train_accuracy: 0.85  test_loss: 0.1111  test_accuracy: 0.83
+INFO [Epoch 18]  train_loss: 0.1222  train_accuracy: 0.82  test_loss: 0.1556  test_accuracy: 0.77
+INFO [Epoch 19]  train_loss: 0.1333  train_accuracy: 0.80  test_loss: 0.1333  test_accuracy: 0.80
+INFO [Epoch 20]  train_loss: 0.1167  train_accuracy: 0.82  test_loss: 0.0889  test_accuracy: 0.87
+INFO [Epoch 21]  train_loss: 0.1222  train_accuracy: 0.82  test_loss: 0.0667  test_accuracy: 0.90
+INFO [Epoch 22]  train_loss: 0.1167  train_accuracy: 0.82  test_loss: 0.0889  test_accuracy: 0.87
+INFO [Epoch 23]  train_loss: 0.1000  train_accuracy: 0.85  test_loss: 0.0667  test_accuracy: 0.90
+INFO [Epoch 24]  train_loss: 0.0778  train_accuracy: 0.88  test_loss: 0.0667  test_accuracy: 0.90
+INFO [Epoch 25]  train_loss: 0.1000  train_accuracy: 0.85  test_loss: 0.0889  test_accuracy: 0.87
+INFO [Epoch 26]  train_loss: 0.0944  train_accuracy: 0.86  test_loss: 0.0889  test_accuracy: 0.87
+INFO [Epoch 27]  train_loss: 0.0833  train_accuracy: 0.88  test_loss: 0.0889  test_accuracy: 0.87
+INFO [Epoch 28]  train_loss: 0.0833  train_accuracy: 0.88  test_loss: 0.0889  test_accuracy: 0.87
+INFO [Epoch 29]  train_loss: 0.1000  train_accuracy: 0.85  test_loss: 0.1111  test_accuracy: 0.83
+INFO [Epoch 30]  train_loss: 0.0722  train_accuracy: 0.89  test_loss: 0.1111  test_accuracy: 0.83
+INFO [Epoch 31]  train_loss: 0.0778  train_accuracy: 0.88  test_loss: 0.1111  test_accuracy: 0.83
+INFO [Epoch 32]  train_loss: 0.1056  train_accuracy: 0.84  test_loss: 0.1111  test_accuracy: 0.83
+INFO [Epoch 33]  train_loss: 0.1222  train_accuracy: 0.82  test_loss: 0.0889  test_accuracy: 0.87
+INFO [Epoch 34]  train_loss: 0.1167  train_accuracy: 0.82  test_loss: 0.0667  test_accuracy: 0.90
+INFO [Epoch 35]  train_loss: 0.0944  train_accuracy: 0.86  test_loss: 0.0889  test_accuracy: 0.87
+INFO [Epoch 36]  train_loss: 0.0944  train_accuracy: 0.86  test_loss: 0.1111  test_accuracy: 0.83
+INFO [Epoch 37]  train_loss: 0.1222  train_accuracy: 0.82  test_loss: 0.0889  test_accuracy: 0.87
+INFO [Epoch 38]  train_loss: 0.1167  train_accuracy: 0.82  test_loss: 0.1111  test_accuracy: 0.83
+INFO [Epoch 39]  train_loss: 0.0778  train_accuracy: 0.88  test_loss: 0.1111  test_accuracy: 0.83
+INFO [Epoch 40]  train_loss: 0.0667  train_accuracy: 0.90  test_loss: 0.0444  test_accuracy: 0.93
+INFO [Epoch 41]  train_loss: 0.0722  train_accuracy: 0.89  test_loss: 0.0889  test_accuracy: 0.87
+INFO [Epoch 42]  train_loss: 0.0778  train_accuracy: 0.88  test_loss: 0.0444  test_accuracy: 0.93
+INFO [Epoch 43]  train_loss: 0.0556  train_accuracy: 0.92  test_loss: 0.0667  test_accuracy: 0.90
+INFO [Epoch 44]  train_loss: 0.0500  train_accuracy: 0.93  test_loss: 0.0889  test_accuracy: 0.87
+INFO [Epoch 45]  train_loss: 0.0611  train_accuracy: 0.91  test_loss: 0.0667  test_accuracy: 0.90
+INFO [Epoch 46]  train_loss: 0.0611  train_accuracy: 0.91  test_loss: 0.0444  test_accuracy: 0.93
+INFO [Epoch 47]  train_loss: 0.0722  train_accuracy: 0.89  test_loss: 0.0444  test_accuracy: 0.93
+INFO [Epoch 48]  train_loss: 0.0611  train_accuracy: 0.91  test_loss: 0.0889  test_accuracy: 0.87
+INFO [Epoch 49]  train_loss: 0.0667  train_accuracy: 0.90  test_loss: 0.0889  test_accuracy: 0.87
+INFO [Epoch 50]  train_loss: 0.0556  train_accuracy: 0.92  test_loss: 0.0444  test_accuracy: 0.93
+INFO End training
+DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+DEBUG findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+DEBUG findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+DEBUG findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+DEBUG findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+DEBUG findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'C059' (C059-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Nimbus Sans Narrow' (NimbusSansNarrow-Oblique.otf) oblique normal 400 condensed>) = 11.25
+DEBUG findfont: score(<Font 'URW Gothic' (URWGothic-DemiOblique.otf) oblique normal 600 normal>) = 11.24
+DEBUG findfont: score(<Font 'Sawasdee' (Sawasdee-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Loma' (Loma.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lohit Kannada' (Lohit-Kannada.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstPoster' (KacstPoster.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'padmaa' (padmaa.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'C059' (C059-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'mry_KacstQurn' (mry_KacstQurn.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Keraleeyam' (Keraleeyam-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Padauk Book' (PadaukBook-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-LightItalic.ttf) italic normal 300 normal>) = 11.145
+DEBUG findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Nimbus Roman' (NimbusRoman-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Tlwg Typist' (TlwgTypist.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Noto Mono' (NotoMono-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Kinnari' (Kinnari-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Purisa' (Purisa.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstTitle' (KacstTitle.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'FreeSans' (FreeSans.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lohit Telugu' (Lohit-Telugu.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Mono' (TlwgMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Roman' (NimbusRoman-BoldItalic.otf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Lato' (Lato-Black.ttf) normal normal 900 normal>) = 10.525
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'FreeSans' (FreeSansOblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Lohit Gujarati' (Lohit-Gujarati.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstDigital' (KacstDigital.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Kinnari' (Kinnari-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Gargi' (Gargi.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Roman' (NimbusRoman-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Nimbus Sans Narrow' (NimbusSansNarrow-BoldOblique.otf) oblique normal 700 condensed>) = 11.535
+DEBUG findfont: score(<Font 'Saab' (Saab.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Yrsa' (Yrsa-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Rasa' (Rasa-Medium.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Umpush' (Umpush-LightOblique.ttf) oblique normal 300 normal>) = 11.145
+DEBUG findfont: score(<Font 'padmaa' (padmaa-Medium-0.5.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Waree' (Waree-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Abyssinica SIL' (AbyssinicaSIL-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Manjari' (Manjari-Regular.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Kalapi' (Kalapi.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Padauk' (Padauk-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Yrsa' (Yrsa-Light.ttf) normal normal 300 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lato' (Lato-Light.ttf) normal normal 300 normal>) = 10.145
+DEBUG findfont: score(<Font 'FreeSerif' (FreeSerif.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lohit Tamil' (Lohit-Tamil.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Navilu' (Navilu.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-HairlineItalic.ttf) italic normal 100 normal>) = 11.335
+DEBUG findfont: score(<Font 'Rasa' (Rasa-Light.ttf) normal normal 300 normal>) = 10.145
+DEBUG findfont: score(<Font 'FreeSans' (FreeSansBoldOblique.ttf) oblique normal 600 normal>) = 11.24
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Umpush' (Umpush-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Yrsa' (Yrsa-SemiBold.ttf) normal normal 600 normal>) = 10.24
+DEBUG findfont: score(<Font 'C059' (C059-Roman.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Purisa' (Purisa-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Mono PS' (NimbusMonoPS-BoldItalic.otf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'FreeMono' (FreeMonoBoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'FreeSans' (FreeSansBold.ttf) normal normal 600 normal>) = 10.24
+DEBUG findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Regular.ttf) normal normal 400 condensed>) = 10.25
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Norasi' (Norasi-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Tlwg Mono' (TlwgMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'KacstOffice' (KacstOffice.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-Th.ttf) normal normal 250 normal>) = 10.1925
+DEBUG findfont: score(<Font 'P052' (P052-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Sahadeva' (sahadeva.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'URW Bookman' (URWBookman-Light.otf) normal normal 300 normal>) = 10.145
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'P052' (P052-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Padauk' (Padauk-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'URW Bookman' (URWBookman-Demi.otf) normal normal 600 normal>) = 10.24
+DEBUG findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Yrsa' (Yrsa-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Lohit Malayalam' (Lohit-Malayalam.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstBook' (KacstBook.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lato' (Lato-Hairline.ttf) normal normal 100 normal>) = 10.335
+DEBUG findfont: score(<Font 'Lohit Bengali' (Lohit-Bengali.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Karumbi' (Karumbi-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Bold.ttf) normal normal 700 condensed>) = 10.535
+DEBUG findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Umpush' (Umpush-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Khmer OS' (KhmerOS.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Waree' (Waree-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'KacstFarsi' (KacstFarsi.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lohit Devanagari' (Lohit-Devanagari.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Umpush' (Umpush-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Kinnari' (Kinnari-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Samanata' (samanata.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Roman' (NimbusRoman-Regular.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Nakula' (nakula.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'FreeSerif' (FreeSerifBoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Italic.ttf) italic normal 400 condensed>) = 11.25
+DEBUG findfont: score(<Font 'Manjari' (Manjari-Thin.otf) normal normal 100 normal>) = 10.335
+DEBUG findfont: score(<Font 'Meera' (Meera-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Norasi' (Norasi-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Rekha' (Rekha.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lohit Assamese' (Lohit-Assamese.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Chandas' (chandas1-2.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Sawasdee' (Sawasdee.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Laksaman' (Laksaman-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'P052' (P052-Roman.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Kinnari' (Kinnari-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Umpush' (Umpush.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Mono PS' (NimbusMonoPS-Regular.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Sans Narrow' (NimbusSansNarrow-Regular.otf) normal normal 400 condensed>) = 10.25
+DEBUG findfont: score(<Font 'Lato' (Lato-BlackItalic.ttf) italic normal 900 normal>) = 11.525
+DEBUG findfont: score(<Font 'Tibetan Machine Uni' (TibetanMachineUni.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lohit Gurmukhi' (Lohit-Gurmukhi.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Purisa' (Purisa-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'KacstDecorative' (KacstDecorative.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lato' (Lato-Medium.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Mitra Mono' (mitra.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'URW Bookman' (URWBookman-DemiItalic.otf) italic normal 600 normal>) = 11.24
+DEBUG findfont: score(<Font 'FreeMono' (FreeMonoBold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Norasi' (Norasi-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'KacstArt' (KacstArt.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Pagul' (Pagul.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+DEBUG findfont: score(<Font 'Tlwg Typist' (TlwgTypist-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Jamrul' (JamrulNormal.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lato' (Lato-Semibold.ttf) normal normal 600 normal>) = 10.24
+DEBUG findfont: score(<Font 'Khmer OS System' (KhmerOSsys.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Sans' (NimbusSans-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-M.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-RI.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Norasi' (Norasi-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Rasa' (Rasa-SemiBold.ttf) normal normal 600 normal>) = 10.24
+DEBUG findfont: score(<Font 'Rasa' (Rasa-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-BI.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Uroob' (Uroob-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Standard Symbols PS' (StandardSymbolsPS.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Padauk Book' (PadaukBook-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Vemana2000' (vemana2000.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Loma' (Loma-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Nimbus Sans' (NimbusSans-Regular.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-R.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'padmaa-Bold.1.1' (padmaa-Bold.1.1.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Nimbus Mono PS' (NimbusMonoPS-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Waree' (Waree-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Gayathri' (Gayathri-Regular.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Garuda' (Garuda-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'RaghuMalayalamSans' (RaghuMalayalamSans-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'FreeMono' (FreeMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Mono' (TlwgMono-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Samyak Devanagari' (Samyak-Devanagari.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Laksaman' (Laksaman-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'AnjaliOldLipi' (AnjaliOldLipi-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Kalimati' (kalimati.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Rachana' (Rachana-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-BI.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Sarai' (Sarai.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'LKLUG' (lklug.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstNaskh' (KacstNaskh.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Droid Sans Fallback' (DroidSansFallbackFull.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Loma' (Loma-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'D050000L' (D050000L.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Likhan' (LikhanNormal.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Gayathri' (Gayathri-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'FreeMono' (FreeMonoOblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'FreeSerif' (FreeSerifItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Manjari' (Manjari-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Suruma' (Suruma.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lato' (Lato-HeavyItalic.ttf) italic normal 800 normal>) = 11.43
+DEBUG findfont: score(<Font 'C059' (C059-BdIta.otf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-L.ttf) normal normal 300 normal>) = 10.145
+DEBUG findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstQurn' (KacstQurn.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-LI.ttf) italic normal 300 normal>) = 11.145
+DEBUG findfont: score(<Font 'Tlwg Typo' (TlwgTypo-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'KacstOne' (KacstOne.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstLetter' (KacstLetter.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Garuda' (Garuda.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstScreen' (KacstScreen.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Tlwg Typo' (TlwgTypo.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Umpush' (Umpush-Light.ttf) normal normal 300 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lohit Tamil Classical' (Lohit-Tamil-Classical.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'FreeSerif' (FreeSerifBold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'P052' (P052-BoldItalic.otf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Lato' (Lato-Heavy.ttf) normal normal 800 normal>) = 10.43
+DEBUG findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Ani' (ani.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Mukti Narrow' (MuktiNarrowBold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'URW Gothic' (URWGothic-Book.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'URW Gothic' (URWGothic-Demi.otf) normal normal 600 normal>) = 10.24
+DEBUG findfont: score(<Font 'Laksaman' (Laksaman.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Dyuthi' (Dyuthi-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Norasi' (Norasi-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-B.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'URW Gothic' (URWGothic-BookOblique.otf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Lato' (Lato-Thin.ttf) normal normal 200 normal>) = 10.24
+DEBUG findfont: score(<Font 'Z003' (Z003-MediumItalic.otf) italic normal 500 normal>) = 11.145
+DEBUG findfont: score(<Font 'Rachana' (Rachana-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'aakar' (aakar-medium.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Ubuntu Condensed' (Ubuntu-C.ttf) normal normal 400 condensed>) = 10.25
+DEBUG findfont: score(<Font 'Samyak Malayalam' (Samyak-Malayalam.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-MI.ttf) italic normal 500 normal>) = 11.145
+DEBUG findfont: score(<Font 'Lato' (Lato-SemiboldItalic.ttf) italic normal 600 normal>) = 11.24
+DEBUG findfont: score(<Font 'KacstOne' (KacstOne-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Samyak Tamil' (Samyak-Tamil.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Yrsa' (Yrsa-Medium.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Nimbus Mono PS' (NimbusMonoPS-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-B.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+DEBUG findfont: score(<Font 'Kinnari' (Kinnari-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Nimbus Sans Narrow' (NimbusSansNarrow-Bold.otf) normal normal 700 condensed>) = 10.535
+DEBUG findfont: score(<Font 'Nimbus Sans' (NimbusSans-BoldItalic.otf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Sawasdee' (Sawasdee-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Garuda' (Garuda-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'OpenSymbol' (opens___.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Loma' (Loma-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Lohit Odia' (Lohit-Odia.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstPen' (KacstPen.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Nimbus Sans' (NimbusSans-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'URW Bookman' (URWBookman-LightItalic.otf) italic normal 300 normal>) = 11.145
+DEBUG findfont: score(<Font 'KacstTitleL' (KacstTitleL.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Pothana2000' (Pothana2000.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Garuda' (Garuda-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Norasi' (Norasi.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Sawasdee' (Sawasdee-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Gayathri' (Gayathri-Thin.otf) normal normal 100 normal>) = 10.335
+DEBUG findfont: score(<Font 'Phetsarath OT' (Phetsarath_OT.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Mukti Narrow' (MuktiNarrow.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-RI.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Lato' (Lato-MediumItalic.ttf) italic normal 500 normal>) = 11.145
+DEBUG findfont: score(<Font 'Kinnari' (Kinnari.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Waree' (Waree.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Gubbi' (Gubbi.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Mono' (TlwgMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+DEBUG findfont: score(<Font 'Laksaman' (Laksaman-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Rasa' (Rasa-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'ori1Uni' (utkal.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Samyak Gujarati' (Samyak-Gujarati.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-R.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-ThinItalic.ttf) italic normal 200 normal>) = 11.24
+DEBUG findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Purisa' (Purisa-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Chilanka' (Chilanka-Regular.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/clement/.local/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+DEBUG findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+DEBUG findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+DEBUG findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+DEBUG findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+DEBUG findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'C059' (C059-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Nimbus Sans Narrow' (NimbusSansNarrow-Oblique.otf) oblique normal 400 condensed>) = 11.25
+DEBUG findfont: score(<Font 'URW Gothic' (URWGothic-DemiOblique.otf) oblique normal 600 normal>) = 11.24
+DEBUG findfont: score(<Font 'Sawasdee' (Sawasdee-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Loma' (Loma.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lohit Kannada' (Lohit-Kannada.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstPoster' (KacstPoster.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'padmaa' (padmaa.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'C059' (C059-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'mry_KacstQurn' (mry_KacstQurn.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Keraleeyam' (Keraleeyam-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Padauk Book' (PadaukBook-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-LightItalic.ttf) italic normal 300 normal>) = 11.145
+DEBUG findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Nimbus Roman' (NimbusRoman-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Tlwg Typist' (TlwgTypist.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Noto Mono' (NotoMono-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Kinnari' (Kinnari-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Purisa' (Purisa.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstTitle' (KacstTitle.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'FreeSans' (FreeSans.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lohit Telugu' (Lohit-Telugu.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Mono' (TlwgMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Roman' (NimbusRoman-BoldItalic.otf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Lato' (Lato-Black.ttf) normal normal 900 normal>) = 10.525
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'FreeSans' (FreeSansOblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Lohit Gujarati' (Lohit-Gujarati.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstDigital' (KacstDigital.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Kinnari' (Kinnari-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Gargi' (Gargi.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Roman' (NimbusRoman-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Nimbus Sans Narrow' (NimbusSansNarrow-BoldOblique.otf) oblique normal 700 condensed>) = 11.535
+DEBUG findfont: score(<Font 'Saab' (Saab.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Yrsa' (Yrsa-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Rasa' (Rasa-Medium.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Umpush' (Umpush-LightOblique.ttf) oblique normal 300 normal>) = 11.145
+DEBUG findfont: score(<Font 'padmaa' (padmaa-Medium-0.5.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Waree' (Waree-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Abyssinica SIL' (AbyssinicaSIL-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Manjari' (Manjari-Regular.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Kalapi' (Kalapi.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Padauk' (Padauk-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Yrsa' (Yrsa-Light.ttf) normal normal 300 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lato' (Lato-Light.ttf) normal normal 300 normal>) = 10.145
+DEBUG findfont: score(<Font 'FreeSerif' (FreeSerif.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lohit Tamil' (Lohit-Tamil.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Navilu' (Navilu.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-HairlineItalic.ttf) italic normal 100 normal>) = 11.335
+DEBUG findfont: score(<Font 'Rasa' (Rasa-Light.ttf) normal normal 300 normal>) = 10.145
+DEBUG findfont: score(<Font 'FreeSans' (FreeSansBoldOblique.ttf) oblique normal 600 normal>) = 11.24
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Umpush' (Umpush-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Yrsa' (Yrsa-SemiBold.ttf) normal normal 600 normal>) = 10.24
+DEBUG findfont: score(<Font 'C059' (C059-Roman.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Purisa' (Purisa-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Mono PS' (NimbusMonoPS-BoldItalic.otf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'FreeMono' (FreeMonoBoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'FreeSans' (FreeSansBold.ttf) normal normal 600 normal>) = 10.24
+DEBUG findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Regular.ttf) normal normal 400 condensed>) = 10.25
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Norasi' (Norasi-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Tlwg Mono' (TlwgMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'KacstOffice' (KacstOffice.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-Th.ttf) normal normal 250 normal>) = 10.1925
+DEBUG findfont: score(<Font 'P052' (P052-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Sahadeva' (sahadeva.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'URW Bookman' (URWBookman-Light.otf) normal normal 300 normal>) = 10.145
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'P052' (P052-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Padauk' (Padauk-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'URW Bookman' (URWBookman-Demi.otf) normal normal 600 normal>) = 10.24
+DEBUG findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Yrsa' (Yrsa-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Lohit Malayalam' (Lohit-Malayalam.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstBook' (KacstBook.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lato' (Lato-Hairline.ttf) normal normal 100 normal>) = 10.335
+DEBUG findfont: score(<Font 'Lohit Bengali' (Lohit-Bengali.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Karumbi' (Karumbi-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Bold.ttf) normal normal 700 condensed>) = 10.535
+DEBUG findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Umpush' (Umpush-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Khmer OS' (KhmerOS.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Waree' (Waree-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'KacstFarsi' (KacstFarsi.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lohit Devanagari' (Lohit-Devanagari.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Umpush' (Umpush-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Kinnari' (Kinnari-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Samanata' (samanata.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Roman' (NimbusRoman-Regular.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Nakula' (nakula.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'FreeSerif' (FreeSerifBoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Italic.ttf) italic normal 400 condensed>) = 11.25
+DEBUG findfont: score(<Font 'Manjari' (Manjari-Thin.otf) normal normal 100 normal>) = 10.335
+DEBUG findfont: score(<Font 'Meera' (Meera-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Norasi' (Norasi-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Rekha' (Rekha.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lohit Assamese' (Lohit-Assamese.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Chandas' (chandas1-2.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Sawasdee' (Sawasdee.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Laksaman' (Laksaman-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'P052' (P052-Roman.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Kinnari' (Kinnari-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Umpush' (Umpush.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Mono PS' (NimbusMonoPS-Regular.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Sans Narrow' (NimbusSansNarrow-Regular.otf) normal normal 400 condensed>) = 10.25
+DEBUG findfont: score(<Font 'Lato' (Lato-BlackItalic.ttf) italic normal 900 normal>) = 11.525
+DEBUG findfont: score(<Font 'Tibetan Machine Uni' (TibetanMachineUni.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lohit Gurmukhi' (Lohit-Gurmukhi.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Purisa' (Purisa-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'KacstDecorative' (KacstDecorative.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lato' (Lato-Medium.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Mitra Mono' (mitra.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'URW Bookman' (URWBookman-DemiItalic.otf) italic normal 600 normal>) = 11.24
+DEBUG findfont: score(<Font 'FreeMono' (FreeMonoBold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Norasi' (Norasi-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'KacstArt' (KacstArt.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Pagul' (Pagul.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+DEBUG findfont: score(<Font 'Tlwg Typist' (TlwgTypist-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Jamrul' (JamrulNormal.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lato' (Lato-Semibold.ttf) normal normal 600 normal>) = 10.24
+DEBUG findfont: score(<Font 'Khmer OS System' (KhmerOSsys.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Nimbus Sans' (NimbusSans-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-M.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-RI.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Norasi' (Norasi-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Rasa' (Rasa-SemiBold.ttf) normal normal 600 normal>) = 10.24
+DEBUG findfont: score(<Font 'Rasa' (Rasa-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-BI.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Uroob' (Uroob-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Standard Symbols PS' (StandardSymbolsPS.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Padauk Book' (PadaukBook-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Vemana2000' (vemana2000.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Loma' (Loma-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Nimbus Sans' (NimbusSans-Regular.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-R.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'padmaa-Bold.1.1' (padmaa-Bold.1.1.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Nimbus Mono PS' (NimbusMonoPS-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Waree' (Waree-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Gayathri' (Gayathri-Regular.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Garuda' (Garuda-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'RaghuMalayalamSans' (RaghuMalayalamSans-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'FreeMono' (FreeMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Mono' (TlwgMono-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Samyak Devanagari' (Samyak-Devanagari.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Laksaman' (Laksaman-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'AnjaliOldLipi' (AnjaliOldLipi-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Kalimati' (kalimati.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Rachana' (Rachana-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-BI.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Sarai' (Sarai.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'LKLUG' (lklug.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstNaskh' (KacstNaskh.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Droid Sans Fallback' (DroidSansFallbackFull.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Loma' (Loma-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'D050000L' (D050000L.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Likhan' (LikhanNormal.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Gayathri' (Gayathri-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'FreeMono' (FreeMonoOblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'FreeSerif' (FreeSerifItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Manjari' (Manjari-Bold.otf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Suruma' (Suruma.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lato' (Lato-HeavyItalic.ttf) italic normal 800 normal>) = 11.43
+DEBUG findfont: score(<Font 'C059' (C059-BdIta.otf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-L.ttf) normal normal 300 normal>) = 10.145
+DEBUG findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstQurn' (KacstQurn.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-LI.ttf) italic normal 300 normal>) = 11.145
+DEBUG findfont: score(<Font 'Tlwg Typo' (TlwgTypo-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'KacstOne' (KacstOne.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstLetter' (KacstLetter.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Garuda' (Garuda.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstScreen' (KacstScreen.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Tlwg Typo' (TlwgTypo.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Umpush' (Umpush-Light.ttf) normal normal 300 normal>) = 10.145
+DEBUG findfont: score(<Font 'Lohit Tamil Classical' (Lohit-Tamil-Classical.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'FreeSerif' (FreeSerifBold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'P052' (P052-BoldItalic.otf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Lato' (Lato-Heavy.ttf) normal normal 800 normal>) = 10.43
+DEBUG findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Ani' (ani.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Mukti Narrow' (MuktiNarrowBold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'URW Gothic' (URWGothic-Book.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'URW Gothic' (URWGothic-Demi.otf) normal normal 600 normal>) = 10.24
+DEBUG findfont: score(<Font 'Laksaman' (Laksaman.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Dyuthi' (Dyuthi-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Norasi' (Norasi-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-B.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'URW Gothic' (URWGothic-BookOblique.otf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Lato' (Lato-Thin.ttf) normal normal 200 normal>) = 10.24
+DEBUG findfont: score(<Font 'Z003' (Z003-MediumItalic.otf) italic normal 500 normal>) = 11.145
+DEBUG findfont: score(<Font 'Rachana' (Rachana-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'aakar' (aakar-medium.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Ubuntu Condensed' (Ubuntu-C.ttf) normal normal 400 condensed>) = 10.25
+DEBUG findfont: score(<Font 'Samyak Malayalam' (Samyak-Malayalam.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Ubuntu' (Ubuntu-MI.ttf) italic normal 500 normal>) = 11.145
+DEBUG findfont: score(<Font 'Lato' (Lato-SemiboldItalic.ttf) italic normal 600 normal>) = 11.24
+DEBUG findfont: score(<Font 'KacstOne' (KacstOne-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Samyak Tamil' (Samyak-Tamil.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Yrsa' (Yrsa-Medium.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Nimbus Mono PS' (NimbusMonoPS-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-B.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+DEBUG findfont: score(<Font 'Kinnari' (Kinnari-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Nimbus Sans Narrow' (NimbusSansNarrow-Bold.otf) normal normal 700 condensed>) = 10.535
+DEBUG findfont: score(<Font 'Nimbus Sans' (NimbusSans-BoldItalic.otf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Sawasdee' (Sawasdee-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Garuda' (Garuda-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'OpenSymbol' (opens___.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Loma' (Loma-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Lohit Odia' (Lohit-Odia.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'KacstPen' (KacstPen.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Nimbus Sans' (NimbusSans-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'URW Bookman' (URWBookman-LightItalic.otf) italic normal 300 normal>) = 11.145
+DEBUG findfont: score(<Font 'KacstTitleL' (KacstTitleL.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Pothana2000' (Pothana2000.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Garuda' (Garuda-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Norasi' (Norasi.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Sawasdee' (Sawasdee-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Gayathri' (Gayathri-Thin.otf) normal normal 100 normal>) = 10.335
+DEBUG findfont: score(<Font 'Phetsarath OT' (Phetsarath_OT.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Mukti Narrow' (MuktiNarrow.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-RI.ttf) italic normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Lato' (Lato-MediumItalic.ttf) italic normal 500 normal>) = 11.145
+DEBUG findfont: score(<Font 'Kinnari' (Kinnari.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Waree' (Waree.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Gubbi' (Gubbi.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Tlwg Mono' (TlwgMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+DEBUG findfont: score(<Font 'Laksaman' (Laksaman-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+DEBUG findfont: score(<Font 'Rasa' (Rasa-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'ori1Uni' (utkal.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Samyak Gujarati' (Samyak-Gujarati.ttf) normal normal 500 normal>) = 10.145
+DEBUG findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-R.ttf) normal normal 400 normal>) = 10.05
+DEBUG findfont: score(<Font 'Lato' (Lato-ThinItalic.ttf) italic normal 200 normal>) = 11.24
+DEBUG findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+DEBUG findfont: score(<Font 'Purisa' (Purisa-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG findfont: score(<Font 'Chilanka' (Chilanka-Regular.otf) normal normal 400 normal>) = 10.05
+DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/clement/.local/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
