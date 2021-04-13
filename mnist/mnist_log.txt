@@ -1,0 +1,29 @@
+INFO Begin training mnist
+INFO Building network
+DEBUG Input layer size: 784
+DEBUG Hidden layer size: 88
+DEBUG Output layer size: 10
+INFO Begin training
+DEBUG Training set size: 1000
+DEBUG Test set size: 1000
+INFO [Epoch 1]  train_loss: 0.1856  train_accuracy: 0.07  test_loss: 0.1930  test_accuracy: 0.04
+INFO [Epoch 2]  train_loss: 0.1846  train_accuracy: 0.08  test_loss: 0.1882  test_accuracy: 0.06
+INFO [Epoch 3]  train_loss: 0.1850  train_accuracy: 0.07  test_loss: 0.1846  test_accuracy: 0.08
+INFO [Epoch 4]  train_loss: 0.1844  train_accuracy: 0.08  test_loss: 0.1840  test_accuracy: 0.08
+INFO [Epoch 5]  train_loss: 0.1842  train_accuracy: 0.08  test_loss: 0.1838  test_accuracy: 0.08
+INFO [Epoch 6]  train_loss: 0.1840  train_accuracy: 0.08  test_loss: 0.1840  test_accuracy: 0.08
+INFO [Epoch 7]  train_loss: 0.1832  train_accuracy: 0.08  test_loss: 0.1838  test_accuracy: 0.08
+INFO [Epoch 8]  train_loss: 0.1790  train_accuracy: 0.10  test_loss: 0.1798  test_accuracy: 0.10
+INFO [Epoch 9]  train_loss: 0.1776  train_accuracy: 0.11  test_loss: 0.1804  test_accuracy: 0.10
+INFO [Epoch 10]  train_loss: 0.1768  train_accuracy: 0.12  test_loss: 0.1818  test_accuracy: 0.09
+INFO [Epoch 11]  train_loss: 0.1770  train_accuracy: 0.12  test_loss: 0.1820  test_accuracy: 0.09
+INFO [Epoch 12]  train_loss: 0.1764  train_accuracy: 0.12  test_loss: 0.1814  test_accuracy: 0.09
+INFO [Epoch 13]  train_loss: 0.1764  train_accuracy: 0.12  test_loss: 0.1808  test_accuracy: 0.10
+INFO [Epoch 14]  train_loss: 0.1764  train_accuracy: 0.12  test_loss: 0.1816  test_accuracy: 0.09
+INFO [Epoch 15]  train_loss: 0.1768  train_accuracy: 0.12  test_loss: 0.1816  test_accuracy: 0.09
+INFO [Epoch 16]  train_loss: 0.1768  train_accuracy: 0.12  test_loss: 0.1808  test_accuracy: 0.10
+INFO [Epoch 17]  train_loss: 0.1764  train_accuracy: 0.12  test_loss: 0.1810  test_accuracy: 0.10
+INFO [Epoch 18]  train_loss: 0.1768  train_accuracy: 0.12  test_loss: 0.1816  test_accuracy: 0.09
+INFO [Epoch 19]  train_loss: 0.1768  train_accuracy: 0.12  test_loss: 0.1810  test_accuracy: 0.10
+INFO [Epoch 20]  train_loss: 0.1774  train_accuracy: 0.11  test_loss: 0.1812  test_accuracy: 0.09
+INFO End training
